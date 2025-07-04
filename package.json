@@ -6,7 +6,10 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint-fix": "eslint --fix src/**/*.{js,jsx,ts,tsx}",
+    "prettier": "prettier --ignore-path .prettierignore './**/*.{js,jsx,ts,tsx}' --write",
+    "prepare": "husky"
   },
   "dependencies": {
     "eslint-config-standard": "^17.1.0",
@@ -28,6 +31,7 @@
     "eslint-config-next": "15.3.4",
     "eslint-config-prettier": "^10.1.5",
     "eslint-plugin-prettier": "^5.5.1",
+    "husky": "^9.1.7",
     "prettier": "^3.6.2",
     "tailwindcss": "^4",
     "typescript": "^5"
