@@ -1,6 +1,5 @@
 .gitignore
 *.lock
-build
 *.min.js
 public/*.hot-update.*
 public/
@@ -13,6 +12,7 @@ public/
 # next.js
 /.next/
 /out/
+/next-env.d.ts
 
 # production
 /build
