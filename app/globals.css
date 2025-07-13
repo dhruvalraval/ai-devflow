@@ -468,12 +468,8 @@ code {
 }
 
 :root {
-  --radius: 0.625rem;
-}
-
-:root {
-  --primary: oklch(0.7089 0.1967 46.81);
-  --primary-foreground: oklch(1 0 0);
+  --primary: oklch(1 0 0); /* light-900 */
+  --primary-foreground: oklch(0.1783 0.0128 270.6); /* dark-300 */
 
   --background: oklch(0.9722 0.0034 247.86); /* light-800 */
   --foreground: oklch(0.1783 0.0128 270.6); /* dark-300 */
@@ -519,7 +515,7 @@ code {
   --font-serif: Merriweather, serif;
   --font-mono: Fira Code, monospace;
 
-  --radius: 0.3rem;
+  --radius: 0.625rem;
 
   --shadow-2xs: 0px 2px 3px 0px hsl(28 18% 25% / 0.09);
   --shadow-xs: 0px 2px 3px 0px hsl(28 18% 25% / 0.09);
@@ -582,8 +578,8 @@ code {
   --popover: oklch(0.1783 0.0128 270.6);
   --popover-foreground: oklch(0.994 0 0);
 
-  --primary: oklch(0.7089 0.1967 46.81);
-  --primary-foreground: oklch(1 0 0);
+  --primary: oklch(0.994 0 0); /* light-850 */
+  --primary-foreground: oklch(0.1783 0.0128 270.6); /* dark-300 */
 
   --secondary: oklch(0.6504 0.0475 272.34);
   --secondary-foreground: oklch(0.9722 0.0034 247.86);
@@ -615,12 +611,6 @@ code {
   --sidebar-accent-foreground: oklch(0 0 0);
   --sidebar-border: oklch(0.2728 0.0257 265.4);
   --sidebar-ring: oklch(0.7089 0.1967 46.81);
-
-  --font-sans: Oxanium, sans-serif;
-  --font-serif: Merriweather, serif;
-  --font-mono: Fira Code, monospace;
-
-  --radius: 0.3rem;
 
   --shadow-2xs: 0px 2px 3px 0px hsl(0 0% 5% / 0.09);
   --shadow-xs: 0px 2px 3px 0px hsl(0 0% 5% / 0.09);
@@ -665,10 +655,6 @@ code {
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
-
-  --font-sans: var(--font-sans);
-  --font-mono: var(--font-mono);
-  --font-serif: var(--font-serif);
 
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
